@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowra</title>
+    <link rel="shortcut icon" href="images/product-7.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar-example">
+    <!-- fixed -->
+    <a href="" class=" setting position-fixed top-50 start-0 z-1"><i class="fa-solid fa-gear fa-spin"></i></a>
+    <!-- fixed -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed fixed-top" id="#navbar-example">
+        <div class="container">
+            <a class="navbar-brand" href="#"><span class="fs-2 fw-bold">F</span>lowra</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-1">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#flowers">Flowers</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#testmonial">Testmonial</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#blog">BLOG</a>
+                    </li>
+                    <li class="nav-item mx-1">
+                        <a class="nav-link" href="#contact">ContactUs</a>
+                    </li>
+
+
+                </ul>
+                <ul class="nav-icons my-auto">
+                    <span><i class="fa-solid fa-cart-shopping fa-lg mx-1"></i></span>
+                    <span><i class="fa-solid fa-heart fa-lg mx-1"></i></span>
+                    <span><i class="fa-solid fa-user fa-lg mx-1"></i></span>
+                </ul>
+
+            </div>
+
+
+        </div>
+    </nav>
+    <header class="min-vh-100">
+        <div class="container d-flex align-items-center min-vh-100">
+            <div class="home-caption col-lg-6 col-md-12">
+                <span id="element" class="h1"></span>
+                <p class="lead fs-4 my-2">Bringing Blooms to Life</p>
+                <p class="lead fs-4">Discover the beauty of nature with our exquisite selection of fresh flowers.
+                    Whether you’re celebrating a special occasion or just want to brighten your day, we have the perfect
+                    bouquet for you.</p>
+                <button class="btn rounded-pill my-2"> View Special Offers</button>
+            </div>
+        </div>
+
+    </header>
+    <section id="about" class="about mt-5">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-4">
+                    <div class="about-img text-center overflow-hidden rounded-4 ">
+                        <img src="images/about.jpg" alt="" class="w-100">
+                        <div class="img-layer d-flex justify-content-center align-items-center">
+                            <ul class="list-unstyled d-flex">
+                                <li class="mx-1"><i class="fa-brands fa-facebook-f"></i></li>
+                                <li class="mx-1"><i class="fa-brands fa-twitter"></i></li>
+                                <li class="mx-1"><i class="fa-brands fa-instagram"></i></li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-7 ms-auto">
+                    <div class="about-caption">
+                        <h2>About Us</h2>
+
+                        <span class="fs-4">Welcome to Flowra,Where Every Bloom Tells a Story!</span>
+                        <p class="lead">At Flowra, we believe in the magic of flowers. Founded with a passion for
+                            bringing people
+                            closer to nature, our mission is to brighten lives with handpicked, exquisite floral
+                            arrangements that celebrate every moment. From vibrant bouquets to elegant arrangements, we
+                            strive to create unforgettable experiences that capture emotions and spread joy.</p>
+                        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas voluptates
+                            laboriosam
+                            minus blanditiis? Sit dignissimos porro esse assumenda aliquid aut!</p>
+                        <div class="btn rounded-pill my-3">See More</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="flowers" class="flower py-5 mt-4">
+        <div class="container">
+            <div class="flower-caption m-auto text-center">
+                <h2>Our Flowers</h2>
+                <p class="lead my-0">A perfect blend of creativity, energy, communication, happiness and love. </p>
+                <p class="lead ">Let us arrange a smile for you.</p>
+            </div>
+            <ul class="nav nav-tabs d-flex justify-content-center my-3" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">NEW</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                        type="button" role="tab" aria-controls="profile-tab-pane"
+                        aria-selected="false">FEATURED</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                        type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">BEST
+                        SELLERS</button>
+                </li>
+
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                    tabindex="0">
+                    <div class="row g-4 my-2">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-1.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic1">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-2.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic2">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-3.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic3">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-4.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic4">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-5.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic5">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-6.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic6">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-7.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic7">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3 col-sm-6">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/img5.jpg" alt="" class="w-100" data-bs-toggle="modal" data-bs-target="#pic8">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                    tabindex="0">
+                    <div class="row g-4 my-2">
+                        <div class="col-md-3">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-1.jpg" alt="" class="w-100">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-2.jpg" alt="" class="w-100">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-3.jpg" alt="" class="w-100">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-4.jpg" alt="" class="w-100">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                    tabindex="0">
+                    <div class="row g-4 my-2">
+
+
+                        <div class="col-md-3">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/img5.jpg" alt="" class="w-100">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-4.jpg" alt="" class="w-100">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item text-center bg-white rounded-2 shadow overflow-hidden pb-2">
+                                <img src="images/product-5.jpg" alt="" class="w-100">
+                                <div class="rating d-flex justify-content-center py-2">
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-warning"></i>
+                                    <i class="fa-regular fa-star text-black-50"></i>
+
+
+                                </div>
+                                <p class="lead mb-0">Peace Lily </p>
+                                <span class="fw-bold">$19.00</span>
+                                <div class="card-icon">
+                                    <ul class="list-unstyled">
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-eye"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"> <a href=""><i
+                                                    class="fa-solid fa-bag-shopping"></i></a></li>
+                                        <li class="d-flex justify-content-center align-items-center my-1"><a href=""><i
+                                                    class="fa-regular fa-heart"></i></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+<!-- modal -->
+ <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="pic1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/product-1.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="pic2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/product-2.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="pic3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/product-3.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="pic4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/product-4.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="pic5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/product-5.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="pic6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/product-6.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="pic7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/product-7.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="pic8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+         
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <img src="images/img5.jpg" alt="" class="w-100">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+    </section>
+    <section id="testmonial" class="testmonial">
+        <div class="layer">
+            <div class="container">
+                <div id="carouselExampleIndicators" class="carousel slide py-5">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="slide text-center">
+                                <img src="images/team1.jpg" alt="" class="rounded-circle">
+                                <h5>Amina</h5>
+                                <span class="fw-bolder">Lorem, ipsum dolor.
+                                </span>
+                                <p class="py-1 lead m-0">"The flowers from Flowra were absolutely beautiful! They
+                                    arrived fresh and perfectly
+                                    arranged.
+                                </p>
+                                <p class="lead"> Flowra made my friend's birthday extra special. I’ll definitely order
+                                    again!"</p>
+                            </div>
+                
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide text-center">
+                                <img src="images/team3.jpg" alt="" class="rounded-circle">
+                                <h5>Leyla</h5>
+                                <span class="fw-bolder">Lorem, ipsum dolor.
+                                </span>
+                                <p class="py-1 lead m-0">"The flowers from Flowra were absolutely beautiful! They
+                                    arrived fresh and perfectly
+                                    arranged.
+                                </p>
+                                <p class="lead"> Flowra made my friend's birthday extra special. I’ll definitely order
+                                    again!"</p>
+                            </div>
+                
+                        </div>
+                        <div class="carousel-item">
+                            <div class="slide text-center">
+                                <img src="images/team2.jpg" alt="" class="rounded-circle">
+                                <h5>Regaa</h5>
+                                <span class="fw-bolder">Lorem, ipsum dolor.
+                                </span>
+                                <p class="py-1 lead m-0">"The flowers from Flowra were absolutely beautiful! They
+                                    arrived fresh and perfectly
+                                    arranged.
+                                </p>
+                                <p class="lead"> Flowra made my friend's birthday extra special. I’ll definitely order
+                                    again!"</p>
+                            </div>
+                
+                        </div>
+                
+                    </div>
+                
+                
+                    <div class="carousel-indicators position-static">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="blog ">
+        <div class="container">
+            <div class="blog-caption m-auto text-center">
+                <h2 class="custom-font custom-color">Our Blog</h2>
+                <p class="lead fs-3">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+            </div>
+            <div class="row">
+                <div class="col-md-4 py-3">
+                    <div class="blog-item border border-2 p-2 bg-white">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img src="images/blog-01.jpg" alt="" class="w-100">
+                            <div
+                                class="blog-layer d-flex justify-content-center align-items-center custom-font text-white fs-2">
+                                Flowra
+                            </div>
+                        </div>
+                        <h3 class="py-2 custom-font">The Language of Flowers</h3>
+                        <span class="py-2 custom-color">11 March 2018 By Rahma</span>
+                        <p class="lead"><span class="lead fw-semibold">Preview:</span> Discover the hidden meanings
+                            behind flowers and learn how to select the right blooms
+                            for every event
+                            .</p>
+                        <a href="" class="text-decoration-none custom-color">Read More..</a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4 py-3">
+                    <div class="blog-item border border-2 p-2 bg-white">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img src="images/blog-02.jpg" alt="" class="w-100">
+                            <div
+                                class="blog-layer d-flex justify-content-center align-items-center custom-font text-white fs-2">
+                                Flowra
+                            </div>
+                        </div>
+                        <h3 class="py-2 custom-font">The Language of Flowers</h3>
+                        <span class="py-2 custom-color">11 March 2018 By Rahma</span>
+                        <p class="lead"><span class="lead fw-semibold">Preview:</span> Discover the hidden meanings
+                            behind flowers and learn how to select the right blooms
+                            for every event
+                            .</p>
+                        <a href="" class="text-decoration-none custom-color">Read More..</a>
+                    </div>
+
+
+                </div>
+                <div class="col-md-4 py-3">
+                    <div class="blog-item border border-2 p-2 bg-white">
+                        <div class="blog-img position-relative overflow-hidden">
+                            <img src="images/blog-03.jpg" alt="" class="w-100">
+                            <div
+                                class="blog-layer d-flex justify-content-center align-items-center custom-font text-white fs-2">
+                                Flowra
+                            </div>
+                        </div>
+                        <h3 class="py-2 custom-font">The Language of Flowers</h3>
+                        <span class="py-2 custom-color">11 March 2018 By Rahma</span>
+                        <p class="lead"><span class="lead fw-semibold">Preview:</span> Discover the hidden meanings
+                            behind flowers and learn how to select the right blooms
+                            for every event
+                            .</p>
+                        <a href="" class="text-decoration-none custom-color">Read More..</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <div class="row shadow">
+                <div class="col-md-6">
+                    <div class="contact-form">
+                        <h2 class="custom-color custom-font py-4">Send Message Us</h2>
+                        <form action="">
+                            
+                            <div class="mb-3">
+
+                                <input type="text" class="form-control" id="formGroupExampleInput"
+                                    placeholder=" Your Name">
+                            </div>
+                            <div class="mb-3">
+
+                                <input type="email" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+
+                                <input type="text" class="form-control" id="formGroupExampleInput2"
+                                    placeholder="Subject">
+                            </div>
+                            <div class="mb-3">
+
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn col-3 rounded-pill d-block m-auto mb-4">Send Message</button>
+
+                        </form>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact-caption">
+                        <h2 class="custom-color custom-font py-4">Get in Touch</h2>
+                        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta
+                            quidem expedita aperiam aliquid at. Totam magni ipsum suscipit amet? Autem nemo esse
+                            laboriosam ratione nobis mollitia inventore?</p>
+
+                            <ul class="fa-ul ms-4">
+                                <li><span class="fa-li"><i class="fa-solid fa-location-dot custom-color"></i></span>329 WASHINGTON ST BOSTON, MA 02108</li>
+                                <li><span class="fa-li"><i class="fa-solid fa-mobile custom-color"></i></span>(617) 557-0089</li>
+                                <li><span class="fa-li"><i class="fa-regular fa-envelope custom-color"></i></span>contact@example.com</li>
+                                
+                              </ul>
+                              <ul class="contact-icon list-unstyled d-flex">
+                                <li class="d-flex justify-content-center align-items-center mx-1"><span><i class="fa-brands fa-facebook-f fs-5"></i></span></li>
+                                <li class="d-flex justify-content-center align-items-center mx-1"><span><i class="fa-brands fa-twitter fs-5"></i></span></li>
+                                <li class="d-flex justify-content-center align-items-center mx-1"><span><i class="fa-brands fa-instagram fs-5"></i></span></li>
+                                <li class="d-flex justify-content-center align-items-center mx-1"><span><i class="fa-regular fa-envelope fs-5"></i></span></li>
+                              </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="copyrights text-center custom-color py-5">
+        <p >© Copyright FLOWRA. All Rights Reserved</p>
+        <p>Designed by BootstrapMade</p>
+    </section>
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Welcome To Flowra!'],
+            typeSpeed: 50,
+            loop: true,
+        });
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
